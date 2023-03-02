@@ -1,0 +1,24 @@
+{
+  "name": "api-cofre-inteligente",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Elder Amaya  <elapoamaya@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.1",
+    "express-jwt": "^6.1.0",
+    "express-jwt-authz": "^2.4.1",
+    "jwks-rsa": "^2.0.4",
+    "jwt-decode": "^3.1.2",
+    "mongodb": "^4.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
